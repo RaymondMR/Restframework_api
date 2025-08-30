@@ -1,0 +1,37 @@
+.venv/
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# Django
+db.sqlite3
+*.log
+staticfiles/
+media/
+
+# Variables de entorno / secretos
+.env
+*.env
+
+# Cobertura / pruebas
+htmlcov/
+.coverage
+.pytest_cache/
+
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+# Archivos de configuración
+config.json
+settings_local.py
+# Archivos de migración (opcional, si no quieres versionarlos)
